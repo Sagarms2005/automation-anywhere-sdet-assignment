@@ -9,7 +9,7 @@ test('Form upload automation', async ({ page }) => {
   const loginPage = new LoginPage(page);
   await loginPage.login(
     '2005sagarms@gmail.com',
-    'YOUR_PASSWORD'
+    'Sagarsagu$143'
   );
 
   const automationPage = new AutomationPage(page);
